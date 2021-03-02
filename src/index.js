@@ -50,7 +50,7 @@ const logoCont = document.querySelector('.logoCont');
 
 const myLogo = new Image();
 myLogo.src = logo;
-myLogo.style.cssText = "width: 15vh"
+myLogo.style.cssText = 'width: 15vh';
 
 logoCont.prepend(myLogo);
 
@@ -58,7 +58,6 @@ const link = document.querySelector("link[rel*='icon']") || document.createEleme
 link.rel = 'shortcut icon';
 link.href = logo;
 document.getElementsByTagName('head')[0].appendChild(link);
-
 
 
 checkbox.addEventListener('change', () => {

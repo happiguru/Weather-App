@@ -62,7 +62,6 @@ main {
 
 .mainCont {
   display: flex;
-  min-height: -webkit-fill-available;
 }
 
 .quote-box {
@@ -99,7 +98,6 @@ main {
   border-radius: 5px;
   padding: 5%;
   opacity: 0.85;
-  height: fit-content;
   margin: 0 auto;
 }
 
@@ -114,7 +112,6 @@ main {
   border-radius: 5px;
   padding: 3%;
   opacity: 0.85;
-  height: fit-content;
   display: none;
 }
 
@@ -256,7 +253,6 @@ input:checked + .slider::before {
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
-  width: fit-content; /* Could be more or less, depending on screen size */
 }
 
 .exit-modal {
@@ -266,8 +262,6 @@ input:checked + .slider::before {
 
 .loadCont {
   background-color: red;
-  width: fit-content;
-  height: fit-content;
 }
 
 .loader {
@@ -292,6 +286,7 @@ input:checked + .slider::before {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
