@@ -7,7 +7,7 @@ body {
 nav {
   display: flex;
   flex-direction: row;
-  background-color: #232525;
+  background-color: #b99e04;
   width: 100%;
   align-items: center;
   justify-content: space-around;
