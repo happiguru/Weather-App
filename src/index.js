@@ -1,7 +1,7 @@
 import './styles/reset.css';
 import './styles/style.css';
 import changeQuote from './modules/quotes';
-import logo from './images/logo1.png';
+import logo from './images/logo.gif';
 
 
 import {
